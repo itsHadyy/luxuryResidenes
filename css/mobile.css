@@ -1,0 +1,162 @@
+@media screen and (max-width: 500px) {
+    nav {
+        display: inline-block;
+        padding: 2rem 1rem;
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 28px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul,
+    nav button,
+    nav a {
+        display: none;
+    }
+
+    nav div:nth-child(2) {
+        display: none;
+    }
+
+
+    .home01 {
+        display: inline-block;
+        padding: 30px 40px;
+    }
+
+    .home01Main {
+        display: block;
+    }
+
+    .home01Main h1 {
+        font-size: 38px;
+        margin: 0;
+    }
+
+    .content {
+        padding: 0 !important;
+    }
+
+    .home01Main p {
+        padding: 0;
+    }
+
+    .home01Main img,
+    .home01Side img {
+        transform: translateX(0);
+        height: 200px;
+        margin-top: 10px;
+    }
+
+    .home01 button {
+        display: none;
+    }
+
+    .home02 {
+        padding: 30px 40px;
+        display: block;
+    }
+
+    .home02Main {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .home02 h1 {
+        margin: 0;
+    }
+
+    .home02Side {
+        text-align: center;
+    }
+
+    .section {
+        padding: 20px 0;
+    }
+
+    h1 {
+        font-size: 38px !important;
+    }
+
+    .home03Side {
+        display: block;
+    }
+
+    .home03Side img {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .home04{
+        padding: 30px 40px;
+    }
+
+    .home04Main{
+        display: block;
+    }
+
+    .home04Main div h1:nth-child(2) {
+        padding-left: 80px;
+    }
+    
+    .home04Main div:nth-child(3) {
+        text-align: center;
+    }
+    .home04Secondary{
+        grid-template-columns: repeat(2, minmax(80px, 1fr));
+        gap: 10px;
+    }
+    .home04Secondary div img:nth-child(2) {
+        margin-top: 10px;
+    }
+
+    .home05 {
+        padding: 30px 40px;
+        display: block;
+
+    }
+
+    .home05 img:nth-child(1){
+        display: none;
+    }
+    .home06{
+        padding: 30px 40px;
+    }
+
+    .home06Main{
+        display: block;
+    }
+    .home06 h1 {
+        margin-top: 0px;
+    }
+    .home06 img {
+        width: 100%;
+    }
+    
+    .home06 p {
+        font-size: 16px;
+    }
+    
+    .questions{
+        margin-top: 30px;
+    }
+    .question h3{
+        margin: 0;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    footer{
+        padding: 30px 20px;
+        display: block;
+    }
+
+    .footerSection:nth-child(3){
+        float: left;
+        padding-right: 60px;
+    }
+
+}
