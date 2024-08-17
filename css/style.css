@@ -67,7 +67,7 @@ button {
     transition: 0.4s ease-in-out;
 }
 
-button:hover{
+button:hover {
     background-color: var(--accentColor);
     color: var(--primaryColor);
 }
@@ -211,6 +211,10 @@ a:hover::after {
     margin: 20px 0;
 }
 
+.home03Main {
+    overflow: hidden;
+}
+
 .home03Side {
     grid-column: auto / span 2;
     display: flex;
@@ -327,7 +331,7 @@ a:hover::after {
     color: var(--primaryColor);
 }
 
-footer{
+footer {
     background-color: var(--secondaryColor);
     color: var(--primaryColor);
     padding: 40px 10px;
@@ -336,11 +340,11 @@ footer{
     gap: 40px;
 }
 
-footer h1{
+footer h1 {
     font-size: 94px;
 }
 
-footer div:nth-child(1){   
+footer div:nth-child(1) {
     grid-column: auto / span 2;
     text-align: center;
 }
