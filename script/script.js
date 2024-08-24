@@ -63,8 +63,19 @@ $(document).ready(function () {
         $('.ans03').hide(1000);
         $('.ans04').hide(1000);
         $('.ans05').hide(1000);
-
         $('.ans02').show(1000);
+        
+        $(".q01").addClass("activeQ")
+        $(".q02").removeClass("activeQ")
+        $(".q03").removeClass("activeQ")
+        $(".q04").removeClass("activeQ")
+        $(".q05").removeClass("activeQ")
+
+        $(".q01Title").css("color", "var(--primaryColor)")
+        $(".q02Title").css("color", "var(--accentColor)")
+        $(".q03Title").css("color", "var(--accentColor)")
+        $(".q04Title").css("color", "var(--accentColor)")
+        $(".q05Title").css("color", "var(--accentColor)")
     });
 
     $(".q02").click(function () {
@@ -72,8 +83,19 @@ $(document).ready(function () {
         $('.ans01').hide(1000);
         $('.ans04').hide(1000);
         $('.ans05').hide(1000);
-
         $('.ans03').show(1000);
+
+        $(".q01").removeClass("activeQ")
+        $(".q02").addClass("activeQ")
+        $(".q03").removeClass("activeQ")
+        $(".q04").removeClass("activeQ")
+        $(".q05").removeClass("activeQ")
+
+        $(".q01Title").css("color", "var(--accentColor)")
+        $(".q02Title").css("color", "var(--primaryColor)")
+        $(".q03Title").css("color", "var(--accentColor)")
+        $(".q04Title").css("color", "var(--accentColor)")
+        $(".q05Title").css("color", "var(--accentColor)")
     });
 
     $(".q03").click(function () {
@@ -81,8 +103,19 @@ $(document).ready(function () {
         $('.ans03').hide(1000);
         $('.ans04').hide(1000);
         $('.ans05').hide(1000);
-
         $('.ans01').show(1000);
+
+        $(".q01").removeClass("activeQ")
+        $(".q02").removeClass("activeQ")
+        $(".q03").addClass("activeQ")
+        $(".q04").removeClass("activeQ")
+        $(".q05").removeClass("activeQ")
+
+        $(".q01Title").css("color", "var(--accentColor)")
+        $(".q02Title").css("color", "var(--accentColor)")
+        $(".q03Title").css("color", "var(--primaryColor)")
+        $(".q04Title").css("color", "var(--accentColor)")
+        $(".q05Title").css("color", "var(--accentColor)")
     });
 
     $(".q04").click(function () {
@@ -90,8 +123,19 @@ $(document).ready(function () {
         $('.ans03').hide(1000);
         $('.ans01').hide(1000);
         $('.ans05').hide(1000);
-
         $('.ans04').show(1000);
+
+        $(".q01").removeClass("activeQ")
+        $(".q02").removeClass("activeQ")
+        $(".q03").removeClass("activeQ")
+        $(".q04").addClass("activeQ")
+        $(".q05").removeClass("activeQ")
+
+        $(".q01Title").css("color", "var(--accentColor)")
+        $(".q02Title").css("color", "var(--accentColor)")
+        $(".q03Title").css("color", "var(--accentColor)")
+        $(".q04Title").css("color", "var(--primaryColor)")
+        $(".q05Title").css("color", "var(--accentColor)")
     });
 
     $(".q05").click(function () {
@@ -99,7 +143,18 @@ $(document).ready(function () {
         $('.ans03').hide(1000);
         $('.ans04').hide(1000);
         $('.ans01').hide(1000);
-
         $('.ans05').show(1000);
+
+        $(".q01").removeClass("activeQ")
+        $(".q02").removeClass("activeQ")
+        $(".q03").removeClass("activeQ")
+        $(".q04").removeClass("activeQ")
+        $(".q05").addClass("activeQ")
+
+        $(".q01Title").css("color", "var(--accentColor)")
+        $(".q02Title").css("color", "var(--accentColor)")
+        $(".q03Title").css("color", "var(--accentColor)")
+        $(".q04Title").css("color", "var(--accentColor)")
+        $(".q05Title").css("color", "var(--primaryColor)")
     });
 });

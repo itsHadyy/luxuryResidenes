@@ -324,10 +324,21 @@ a:hover::after {
 .question:hover {
     background-color: var(--accentColor);
     color: var(--primaryColor);
+    scale: 1.01;
     cursor: pointer;
 }
 
 .question:hover .title {
+    color: var(--primaryColor) !important;
+}
+
+.activeQ{
+    background-color: var(--accentColor);
+    color: var(--primaryColor) ;
+    scale: 1.01;
+}
+
+.q01Title{
     color: var(--primaryColor);
 }
 
